@@ -4,7 +4,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"dotenv": "^16.0.3",
 		"webdav": "^5.0.0-r3"
-	},
-	"devDependencies": {}
+	}
 }

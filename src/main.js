@@ -1,12 +1,15 @@
 /*--------------------- WEBDAV WITH LIBRARY ---------------------*/
 import { createClient } from "webdav";
 
-// const client = createClient("https://webdav.iserv-schillerschule.de/", {
-// 	username: "",
-// 	password: "",
-// });
+/*--------------------- Env vars from .env ---------------------*/
+import { config } from "dotenv";
+config();
 
-const client = createClient("http://localhost:80/dav");
+/*--------------------- Connect ---------------------*/
+const client = createClient("https://webdav.iserv-schillerschule.de/", {
+	username: process.env.USERNAME,
+	password: process.env.PASSWORD,
+});
 
 // Get directory contents
 const directoryItems = await client.getDirectoryContents("/");
