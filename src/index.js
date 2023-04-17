@@ -7,4 +7,3 @@ oReq.onload = function (oEvent) {
 var blob = new Blob(["abc123"], { type: "text/plain" });
 
 oReq.send(blob);
-https://github.com/perry-mitchell/webdav-client

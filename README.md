@@ -1,5 +1,3 @@
-# Setup WebDav Server
+# Libraries
 
-https://wiki.archlinux.org/title/WebDAV
-
-Iserv uses nginx. (port 80/443)
+-   Webdav: https://github.com/perry-mitchell/webdav-client
