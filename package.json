@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"start": "node ./src/main.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"webdav": "^5.0.0-r3"
+	},
+	"devDependencies": {}
+}

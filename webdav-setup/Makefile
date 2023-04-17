@@ -2,7 +2,7 @@
 cr: copy restart
 
 copy:
-	sudo cp ./nginx.conf /etc/nginx/nginx.conf
+	sudo cp -f ./nginx.conf /etc/nginx/nginx.conf
 
 # utility commands
 restart:
