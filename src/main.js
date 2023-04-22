@@ -6,7 +6,7 @@ import { config } from "dotenv";
 config();
 
 /*--------------------- Connect ---------------------*/
-const client = createClient("https://webdav.iserv-schillerschule.de/", {
+const client = createClient("https://web/dav/url/", {
 	username: process.env.USERNAME,
 	password: process.env.PASSWORD,
 });
